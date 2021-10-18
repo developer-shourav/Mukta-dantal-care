@@ -1,9 +1,12 @@
 import React from 'react';
 
+
 const Footer = () => {
     return (
         <div>
-            <h1>This is Footer</h1>
+             <div className="my-5 py-5 footer-bg">
+
+            </div>
         </div>
     );
 };

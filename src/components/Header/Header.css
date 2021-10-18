@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
+
+.site-logo{
+    font-family: 'Fondamento', cursive;
+    font-weight: 900;
+    font-size: 28px;
+    color:#4995ff;
+    text-shadow: 1px 1px #292929;
+}
+
+
+.nav-items-style{
+    font-size: 17px;
+    font-weight: bold;
+    color:#4995ff;
+    text-decoration: none;
+    margin: 0px 5px;
+    transition: all .2s ease;
+    padding: 10px;
+}
+
+.nav-items-style:hover{
+       color: white;
+       padding:18px 10px ;
+       background-color:#4995ff ;
+}

@@ -3,7 +3,10 @@ import React from 'react';
 const NotFound = () => {
     return (
         <div>
-            <h1>404 Error. This page is not Found</h1>
+            <div className="container  text-center my-5 ">
+                <img className = "w-50" src="./404.svg" alt="page not found svg" />
+            </div>
+            <h3 className = "text-center text-danger my-3 py-5">404 Error. This page is not Found</h3>
         </div>
     );
 };

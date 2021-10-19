@@ -1,4 +1,44 @@
 
 .footer-bg{
-    background-color:#4995ff ;
+    background-color:#93c0ff6b ;
+}
+
+.footer-logo{
+    font-family: 'Fondamento', cursive;
+    font-weight: 900;
+    font-size: 45px;
+    color:#1677ff ;
+    text-shadow: 1px 1px #050505;
+}
+
+.news-leater-section{
+    background-color: #1677ff;
+}
+
+.email-btn{
+    border: none;
+    text-transform: uppercase;
+    padding: 5px 78px;
+    color: #fff;
+    background-color:transparent;
+    border: 1px solid white;
+
+}
+.email-btn:hover{
+    
+    background-color:#0045a7;
+   
+    
+}
+
+.contact-titel{
+    font-weight: bold;
+    color : #1677ff;
+    text-shadow: 1px 1px #1d1d1d;
+}
+
+.footer-bg p{
+    margin: 2px;
+    color: #04003b;
+    font-weight: bold;
 }

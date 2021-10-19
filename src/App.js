@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import LogIn from './components/LogIn/LogIn';
 import NotFound from './components/NotFound/NotFound';
+import PrivetRoute from './components/PrivetRoute/PrivetRoute';
 import Register from './components/Register/Register';
 import Services from './components/Services/Services';
 import AuthProvider from './context/AuthProvider';
@@ -31,9 +32,9 @@ function App() {
               <Home></Home>
             </Route>
             {/* -----------Services route---------------- */}
-            <Route exact path="/services">
+            <PrivetRoute exact path="/services">
               <Services> </Services>
-            </Route>
+            </PrivetRoute>
 
             {/* -----------About route---------------- */}
             <Route exact path="/about">

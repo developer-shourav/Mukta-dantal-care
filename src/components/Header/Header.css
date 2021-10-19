@@ -48,3 +48,32 @@
     color: white;
     background-color: #4995ff;
 }
+
+
+/*------------- Specility section style ------------- */
+.spicility-section{
+    margin-top: -40px;
+    background-color:#4492ff ;
+}
+
+
+.first-aid-icon{
+      border-left: 1px solid;
+      border-right: 1px solid;
+      color : white ;
+}
+
+/*----------------- feature section style ------------- */
+
+.service-btn{
+    border:2px solid #4995ff;
+    color: #4995ff;
+    background-color: transparent;
+    
+}
+
+.service-btn:hover{
+    
+    color: white;
+    background-color: #3f8fff69;
+}

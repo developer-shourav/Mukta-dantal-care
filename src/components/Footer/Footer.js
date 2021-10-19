@@ -4,7 +4,7 @@ import "./Footer.css" ;
 
 const Footer = () => {
     return (
-        <div className= "mt-5  footer-bg">
+        <div className= " footer-bg">
              <div className="mt-5 py-5 ">
                  <div className=" text-center mx-auto">
                      <h2 className = "footer-logo mb-4">Muckta Dental Care</h2>

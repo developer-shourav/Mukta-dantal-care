@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Featurecart = (props) => {
     /* ---------Distructring the props-------- */
@@ -13,7 +14,7 @@ const Featurecart = (props) => {
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>
                         <p className="card-text">{price}</p>
-                        <button className=" mt-4 px-lg-5 py-lg-2 px-4 py-2 service-btn rounded ">Learn more</button>
+                        <NavLink to = "/services"> <button className=" mt-4 px-lg-5 py-lg-2 px-4 py-2 service-btn rounded ">Learn more</button></NavLink>
                     </div>
                     
                 </div>

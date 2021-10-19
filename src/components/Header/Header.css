@@ -77,3 +77,12 @@
     color: white;
     background-color: #3f8fff69;
 }
+
+.log-out-btn{
+    margin-left: 5px;
+    border: none ;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background-color:#4995ff ;
+    color: white;
+}

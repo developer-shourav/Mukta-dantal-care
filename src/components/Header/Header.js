@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import "./Header.css" ;
 
 const Header = () => {
@@ -7,7 +8,10 @@ const Header = () => {
         color:"white",
         padding: '18px 10px ',  
         backgroundColor:"#4995ff"
-    }
+    };
+
+    const {user, logOut} = useAuth()
+
 
     return (
         <div >
@@ -39,12 +43,15 @@ const Header = () => {
                                     <NavLink activeStyle={activeStyle} className=" nav-items-style" to="/contact"> Contact</NavLink>
                                 </li>
 
-                                <li className="">
-                                    <NavLink activeStyle={activeStyle} className=" nav-items-style" to="/register">Register </NavLink>
-                                </li>
+                                {user.email && <li className="">
+                                    <span className="fs-6 fw-bold" style={{ color:"#4955ff"}}> Hello {user.displayName}</span>
+                                </li>}
 
                                 <li className="nav-item">
-                                    <NavLink activeStyle={activeStyle}  className=" nav-items-style" to="/login">LogIn </NavLink>
+                                    {
+                                        user.email ?
+                                        <button onClick = {logOut}>Log out</button> : <NavLink activeStyle={activeStyle} className=" nav-items-style" to="/login">LogIn </NavLink>
+                                    }
                                 </li>
 
                                 

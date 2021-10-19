@@ -1,9 +1,14 @@
-
+/* ===================================== 
+               footer background
+============================================*/
 .footer-bg{
     background-color:#93c0ff6b ;
     margin-top: 200px;
 }
 
+/* ===================================== 
+               footer logo style
+============================================*/
 .footer-logo{
     font-family: 'Fondamento', cursive;
     font-weight: 900;
@@ -12,10 +17,17 @@
     text-shadow: 1px 1px #050505;
 }
 
+/* ===================================== 
+       footer input field style
+============================================*/
 .news-leater-section{
     background-color: #1677ff;
 }
 
+
+/* ===================================== 
+       footer button style
+============================================*/
 .email-btn{
     border: none;
     text-transform: uppercase;

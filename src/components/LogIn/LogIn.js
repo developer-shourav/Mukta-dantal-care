@@ -10,10 +10,12 @@ const LogIn = () => {
     
    const{ signInUsingGoogle} = useAuth();
     return (
+      /* ------- Login form container------------- */
       <div className="d-flex justify-content-center align-items-center ">
           <div className = "login-form mt-5 px-3 py-3 rounded " >
           <h2>LOG IN</h2>
             <form >
+               {/* ------------Log in input style -------------- */}
               <input className = "px-5 my-1" type="email" name="" id="" />
               <br />
               <input className = "px-5 my-1" type="password" name="" id="" /> 

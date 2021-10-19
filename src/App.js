@@ -18,6 +18,7 @@ function App() {
 
      <AuthProvider>
         <Router>
+          {/* -----------Header route---------------- */}
           <Header>
           </Header>
           <Switch>
@@ -25,37 +26,38 @@ function App() {
             <Route exact path="/">
               <Home></Home>
             </Route>
-
+            {/* -----------Home route---------------- */}
             <Route exact path="/home">
               <Home></Home>
             </Route>
-
+            {/* -----------Services route---------------- */}
             <Route exact path="/services">
               <Services> </Services>
             </Route>
 
+            {/* -----------About route---------------- */}
             <Route exact path="/about">
               <AboutUs></AboutUs>
             </Route>
-
+            {/* -----------contact route---------------- */}
             <Route exact path="/contact">
               <Contact></Contact>
             </Route>
-
+            {/* -----------Register route---------------- */}
             <Route exact path="/register">
               <Register> </Register>
             </Route>
-
+            {/* -----------Login route---------------- */}
             <Route exact path="/login">
               <LogIn></LogIn>
             </Route>
-
+            {/* -----------Unknown or error  route---------------- */}
             <Route path="*">
               <NotFound> </NotFound>
             </Route>
 
           </Switch>
-
+          {/* -----------Route route---------------- */}
           <Footer></Footer>
         </Router>
 

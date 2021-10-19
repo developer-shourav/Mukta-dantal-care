@@ -8,6 +8,7 @@ const Featurecart = (props) => {
     const { name, price, img } = props.feature;
     return (
         <div className="">
+            {/* -----------Home page services section------------ */}
             <div className="col h-100">
                 <div className="card h-100">
                     <img src={img} className="card-img-top" alt="services-img" />

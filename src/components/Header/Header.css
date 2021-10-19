@@ -1,4 +1,4 @@
-
+/* ---------------Google fonts------------------------ */
 @import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&display=swap');
 
 .site-logo{
@@ -9,7 +9,9 @@
     text-shadow: 1px 1px #292929;
 }
 
-
+/* =============================================
+         Site titel style
+================================================*/
 .nav-items-style{
     font-size: 17px;
     font-weight: bold;
@@ -38,6 +40,9 @@
    
 }
 
+/* =============================================
+         header discription style
+================================================*/
 
 .site-discription{
     color: #444444;

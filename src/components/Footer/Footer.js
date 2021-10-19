@@ -4,9 +4,12 @@ import "./Footer.css" ;
 
 const Footer = () => {
     return (
+
         <div className= " footer-bg">
+            {/* ------------Footer main container----------------- */}
              <div className="mt-5 py-5 ">
                  <div className=" text-center mx-auto">
+                     {/* -------Web name in footer------- */}
                      <h2 className = "footer-logo mb-4">Muckta Dental Care</h2>
 
                      <div className="news-leater-section text-center w-100% py-4">
@@ -16,7 +19,7 @@ const Footer = () => {
                      </div>
 
                  </div>
-
+               {/* ----------- Footer contact info section-------------------- */}
                  <div className="container w-75 mt-5"> 
                     <div className="row text-center">
                         <div className="col-lg-4 col-12 ">
@@ -42,6 +45,7 @@ const Footer = () => {
                 
                 
             </div>
+            {/* ------------Copy right holder info------------------ */}
             <p className="text-center pb-3 mb-2">Copyright © 2021 Shourav Raj.com</p>
         </div>
     );

@@ -34,6 +34,17 @@
 .site-name{
     font-family: 'Fondamento', cursive;
     font-weight: 900;
-    color:rgb(0, 0, 92);
+    color:#4391ff;
    
+}
+
+
+.site-discription{
+    color: #444444;
+}
+
+.primery-btn{
+    border:none;
+    color: white;
+    background-color: #4995ff;
 }

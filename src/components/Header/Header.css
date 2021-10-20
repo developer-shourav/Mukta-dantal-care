@@ -36,7 +36,8 @@
 .site-name{
     font-family: 'Fondamento', cursive;
     font-weight: 900;
-    color:#4391ff;
+    color:#0f73ff;
+    text-shadow: 1px 1px rgb(46, 46, 46);
    
 }
 
@@ -74,12 +75,13 @@
     border:2px solid #4995ff;
     color: #4995ff;
     background-color: transparent;
+    font-weight: bold;
     
 }
 
 .service-btn:hover{
     
-    color: white;
+    color: #006aff;
     background-color: #3f8fff69;
 }
 
@@ -90,4 +92,25 @@
     border-radius: 5px;
     background-color:#4995ff ;
     color: white;
+}
+
+
+/* ==============================================
+               Cards style
+=================================================*/
+.card-style{
+    box-shadow: 1px 1px  4px #9e9d9d;
+    transition: all .5s ease;
+    border-radius: 5px;
+}
+
+
+
+
+.slidr-label{
+      color: rgb(7, 164, 255);
+      font-size: 25px; 
+      text-shadow: 1px 1px black;
+      font-weight: bold;
+      
 }

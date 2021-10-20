@@ -1,7 +1,23 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 
 const Register = () => {
+    const { signInUsingGoogle } = useAuth();
+    const location = useLocation()
+    const history = useHistory();
+    const redirect_uri = location.state?.from || "/home";
+
+    const handleGoogleLogIn = () => {
+        signInUsingGoogle()
+            .then(result => {
+
+                history.push(redirect_uri);
+            })
+    }
+
+
+
     return (
         <div className="d-flex justify-content-center align-items-center">
             <div className="login-form card-style mt-5 px-3 py-3 rounded ">
@@ -20,7 +36,7 @@ const Register = () => {
                 </form>
                 <p>Already have an Account ? <Link to = "/login"> Login</Link></p>
                 <div className="">---------------------Or-------------------</div>
-                <button className="primery-btn w-100 rounded text-center px-4 py-2">Signin with Google </button>
+                <button onClick={handleGoogleLogIn} className="primery-btn w-100 rounded text-center px-4 py-2">Signin with Google </button>
            </div>
         </div>
     );

@@ -9,7 +9,7 @@ import "./LogIn.css" ;
 const LogIn = () => {
     
    const{ signInUsingGoogle} = useAuth();
-   const location = useLocation()
+   const location = useLocation();
    const history = useHistory() ;
    const redirect_uri = location.state?.from || "/home" ;
 
